@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        input {
+            width: 190px;
+         margin: 2px;
+        }
+        #radio {
+            display: flex;
+            gap: 20px;
+            margin: 1px;
+        }
+    </style>
+</head>
+<body>
+  <form style="width: 200px; flex-direction: column; margin: 0 auto;" action="">
+    <h1>Log In</h1>
+<input type="text" placeholder="Ismingizni kiriting">
+<input type="password" placeholder="Parolingizni kiriting">
+<input type="email" name="email" placeholder="Emailingizni kiriting">
+<div id="radio">
+<input type="radio" name="Jins">Erkak
+<input type="radio" name="Jins">Ayol
+</div>
+
+<p>O'quvchi Tanlang:</p>
+<select>
+    <option value="Xumoyun">Xumoyun</option>
+    <option value="Muhammadjon">Muhammadjon</option>
+    <option value="Ahmad">Ahmad</option>
+</select>
+<textarea placeholder="Izoh yozish" style="margin-top: 20px;" name="" id=""></textarea>
+
+<button type="submit">Keyingisi</button>
+
+  </form>
+</body>
+</html>
